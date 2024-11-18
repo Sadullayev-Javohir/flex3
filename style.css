@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body {
+    background: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px;
+}
+.top {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    gap: 20px;
+}
+.child-center {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: calc(100% / 3);
+}
+.center {
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+}
+.child-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% / 2);
+}
+.bottom {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    gap: 20px;
+}
+.child-1, .child-4 {
+    width: calc(100% / 3);
+    gap: 10px;
+}
+.child-2, .child-3 {
+    width: 100%;
+    gap: 10px;
+    height: 50%;
+}
+.child-5 {
+    height: 100%;
+    width: calc(100% + 30px);
+}
+.child-6, .child-7, .child-8 {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.child-9, .child-10 {
+    height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    /* background: white; */
+}
+.box.child-1, .box.child-2, .box.child-3, .box.child-4,
+.box.child-5, .box.child-6, .box.child-7, .box.child-8,
+.box.child-9, .box.child-10 {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.child-1 {
+    background: url(./image/img9.webp);
+}
+.child-2 {
+    background: url(./image/img8.jpg);
+}
+.child-3 {
+    background: url(./image/img7.jpg);
+}
+.child-4 {
+    background: url(./image/img6.jpg);
+}
+.child-5 {
+    background: url(./image/img5.jpg);
+}
+.child-6 {
+    background: url(./image/img4.webp);
+}
+.child-7 {
+    background: url(./image/img3.jpg);
+}
+.child-8 {
+    background: url(./image/nature2.jpg);
+}
+.child-9 {
+    background: url(./image/nature1.jpeg)
+}
+.child-10 {
+    background: url(./image/img8.jpg);
+}
